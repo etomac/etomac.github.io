@@ -1,9 +1,20 @@
 $(document).ready(function() {
   
+  $('#uras').hide()
+  
+  
+  $('#buttonL').click(function(event){
+    
+    
+    $('#uras').show()
+    
+  })
+  
+  
   let counter = 0;
   let seeder  = 0;
   
-  $('button').click(function(event) {
+  $('#buttonJ').click(function(event) {
     
     console.log(counter)
     console.log(counter % 2)
