@@ -14,7 +14,7 @@ function custAdd(inSeed, extension){
   
   if (extension) {
     
-    outtext = datas[jdx].jpn + datas[jdx].def
+    outtext = datas[jdx].jpn + "   " + datas[jdx].def
     
   } else {
     
