@@ -8,5 +8,5 @@ function custAdd(x, y){
   
   console.log(datas);
   
-  return datas[0].name;
+  return datas[0].name + datas[0].japan ;
 }
