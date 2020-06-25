@@ -1,1 +1,0 @@
-datan4 = '[{"name" : "Ashwin", "age" : "20", "japan" : "こくみん"},{"name" : "Abhinandan", "age" : "20"}]';
