@@ -12,7 +12,6 @@ $(document).ready(function() {
     
     $('#demo').text(custAdd(seeder));
     
-    counter += 1
     if ((counter % 2) == 1){
       
       $('#demo').text(custAdd(seeder, true));
@@ -26,6 +25,7 @@ $(document).ready(function() {
       
     }
     
+    counter += 1
     
     
     
