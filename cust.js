@@ -4,11 +4,10 @@
 
 function custAdd(inSeed, extension){
   
-  let datas = dn4;
+  let datas = dn4.concat(sen1) ;
   
-  console.log(dn4);
-  
-  let jdx = parseInt((inSeed*dn4.length));
+  console.log(datas)
+  let jdx = parseInt((inSeed*datas.length));
   
   let outtext = ''
   
