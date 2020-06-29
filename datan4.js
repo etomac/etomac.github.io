@@ -25,6 +25,5 @@ dummy = [
 
 
 sen1 = [
-{'jpn':'けど vs が vs でも vs しかし vs ところが', 'def':'they are all "buts" though Kedo/Ga can be used for introductions and politeness; shikashi more formal; tokoroga is when expectation is not fulfiled, what follows are more restrictive...'},
-
+  {'jpn':'けど vs が vs でも vs しかし vs ところが', 'def':'they are all "buts" though Kedo/Ga can be used for introductions and politeness; shikashi more formal; tokoroga is when expectation is not fulfiled, what follows are more restrictive...'},
 ]
