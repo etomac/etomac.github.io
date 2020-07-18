@@ -2,51 +2,70 @@ $(document).ready(function() {
 	console.log("busApi loaded")
 	const url0 = "https://rt.data.gov.hk//v1/transport/citybus-nwfb/";
 	
-	let nbs = [
-	["CTB","10"],["CTB","1"],["CTB","5B"],["NWFB","101"],["NWFB","104"],["NWFB","26"],
-	];
+	let nbz =[ {
+	busout: [],
+	busmat:[
+	["CTB","10",'001065'],["CTB","1",'001065'],["CTB","5B",'001065'],["NWFB","101",'001065'],["NWFB","104",'001065'],["NWFB","26",'002759'],
+	]
+	},{
+	busout: [],
+	busmat: [
+	["CTB","10",'001135'],["CTB","1",'001066'],["CTB","5B",'001066'],["NWFB","101",'001135'],["NWFB","104",'001135'],["NWFB","113",'001066'],
+	["NWFB","905",'001066'],
+	]
+	},{
+	busout: [],
+	busmat: [
+	["CTB","10",'001061'],["CTB","1",'001061'],["CTB","5B",'001061'],["NWFB","101",'001192'],["NWFB","104",'001192'],
+	]
+	}]
 	
-	let buses = [];
 	
-	nbs.forEach((ele)=>{
+	nbz.forEach((nbs)=>{
 		
-		let busstop = '001065';
-		
-		if (ele[1] == '26') {
-			busstop = '002759'
-		}
-		
-		let flickerAPI = url0 + "eta/"+ele[0]+"/" + busstop +"/" + ele[1];
-		$.getJSON( flickerAPI, {
-			format: "json"
-		}).done(function( data ) {
-			buses.push(ele[1] + ' :: ' + data.data[0].eta.substring(11,16));
-			buses.push(ele[1] + ' :: ' + data.data[1].eta.substring(11,16));
-			//let timestep = data.data[0].eta.getHours() + ':' + data.data[0].eta.getMinutes();
-			console.log("Bus",ele[1], "ETAcurr", data.data[0].eta.substring(11,16));
-			console.log("Bus",ele[1], "ETAnext", data.data[1].eta.substring(11,16));
+		let buses = [];
+		nbs.busmat.forEach((ele)=>{
+
 			
-			
-			console.log(buses)
-			
-			$('#bus').text(buses.join(" || "));
+			let flickerAPI = url0 + "eta/"+ele[0]+"/" + ele[2] +"/" + ele[1];
+			$.getJSON( flickerAPI, {
+				format: "json"
+			}).done(function( data ) {
+				[0,1].forEach((idx)=>{
+					let timeStr = data.data[idx].eta.substring(11,16);
+					
+					if (timeStr.length > 2 ){
+						nbs.busout.push(timeStr + " (Bus: " + ele[1] + ")");
+					}
+				})
+				//console.log("Bus",ele[1], "ETAcurr", data.data[0].eta.substring(11,16));
+				//console.log("Bus",ele[1], "ETAnext", data.data[1].eta.substring(11,16));
+				
+				nbs.busout.sort()
+				//console.log(nbs.busout)
+				
+				$('#bus').text(nbz[0].busout.join(" || "));
+				$('#bus_syp').text(nbz[2].busout.join(" || "));
+				$('#bus_to_kt').text(nbz[1].busout.join(" || "));
+			})
 		})
 	})
-	/*
-	let api2 = url0 + "stop/002759";
+	
+	let api2 = url0 + "stop/001192";
 			$.getJSON( api2, {
 			format: "json"
 		}).done(function( data ) {console.log(data)})
+
 	
-	*/
-	
-	console.log(buses)
 
 
 })
 /*
 
 BUS STOPS
+001135 = Suderland street QRW (to KT)
+001065 = Suderland street DVR (to Central)
+001066 = Queen Street DVR (to KT)
 
 route/CTB/10              :: route (NWFB)
 route-stop/CTB/10/outbound:: route stops
