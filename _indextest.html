@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knowledge Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+    .sidebar {
+      height: 100vh;
+      overflow-y: auto;
+      background-color: #1e1e1e;
+    }
+    .sidebar a {
+      color: #bbb;
+      text-decoration: none;
+      display: block;
+      padding: 8px 16px;
+    }
+    .sidebar a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+    .content {
+      padding: 20px;
+    }
+    .card {
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+      border: 1px solid #333;
+    }
+  </style>
+  <!-- MathJax for LaTeX rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <nav class="col-3 col-md-2 sidebar">
+      <h5 class="p-3">Topics</h5>
+      <div id="sidebar-links"></div>
+    </nav>
+    <main class="col-9 col-md-10 content">
+      <div id="main-content"></div>
+    </main>
+  </div>
+</div>
+
+<script>
+  const CONTENT = {
+    intro: {
+      title: "Welcome",
+      html: `
+        <div class="card p-3">
+          <h2>Welcome to My Notes</h2>
+          <p>This is a personal knowledge hub for jotting down useful ideas, formulas, and references.</p>
+          <p><strong>Who:</strong> Edmund Chan<br>
+          <strong>Why:</strong> Collecting insights from trading, coding, and beyond.<br>
+          <strong>How:</strong> Structured as topics with quick summaries and details.</p>
+          <p>Feel free to explore the sidebar!</p>
+        </div>
+      `
+    },
+    Trading: {
+      "Fixed Income": [
+        {
+          id: "fi-treasury-net-issuances",
+          title: "Treasury Net Issuances",
+          summary: "Key drivers of bond supply.",
+          html: `
+            <div class="card p-3">
+              <h4>Treasury Net Issuances</h4>
+              <p>Net issuance = New issuance – Maturing debt.</p>
+              <p>Formula (LaTeX):</p>
+              <p>$$ \\text{Net Issuance} = I_{new} - I_{mature} $$</p>
+            </div>
+          `
+        }
+      ]
+    },
+    "Life Advice": {
+      "Philosophy": [
+        {
+          id: "life-stoicism",
+          title: "Stoicism",
+          summary: "Practical wisdom for life.",
+          html: `
+            <div class="card p-3">
+              <h4>Stoicism</h4>
+              <p>Focus on what you can control, accept what you cannot.</p>
+            </div>
+          `
+        }
+      ]
+    },
+    Mathematics: {
+      "Algebra": [
+        {
+          id: "math-quadratic",
+          title: "Quadratic Formula",
+          summary: "Solve ax^2+bx+c=0.",
+          html: `
+            <div class="card p-3">
+              <h4>Quadratic Formula</h4>
+              <p>$$ x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} $$</p>
+            </div>
+          `
+        }
+      ]
+    }
+  };
+
+  const sidebar = document.getElementById('sidebar-links');
+  const mainContent = document.getElementById('main-content');
+
+  function renderSidebar() {
+    sidebar.innerHTML = '';
+    for (let topic in CONTENT) {
+      if (topic === 'intro') continue; // skip intro in sidebar
+      let sectionHeader = document.createElement('h6');
+      sectionHeader.className = 'px-3 mt-3';
+      sectionHeader.textContent = topic;
+      sidebar.appendChild(sectionHeader);
+      let sections = CONTENT[topic];
+      for (let subsection in sections) {
+        let subsectionLink = document.createElement('a');
+        subsectionLink.href = `#${topic}-${subsection}`;
+        subsectionLink.textContent = subsection;
+        sidebar.appendChild(subsectionLink);
+      }
+    }
+  }
+
+  function renderContent(topic, subsection) {
+    mainContent.innerHTML = '';
+    if (topic === 'intro') {
+      mainContent.innerHTML = CONTENT.intro.html;
+    } else {
+      let sections = CONTENT[topic][subsection];
+      sections.forEach(section => {
+        mainContent.innerHTML += section.html;
+      });
+    }
+    if (window.MathJax) {
+      MathJax.typesetPromise();
+    }
+  }
+
+  function handleHashChange() {
+    let hash = location.hash.slice(1);
+    if (!hash) {
+      renderContent('intro');
+      return;
+    }
+    let [topic, subsection] = hash.split('-');
+    if (CONTENT[topic] && CONTENT[topic][subsection]) {
+      renderContent(topic, subsection);
+    } else {
+      renderContent('intro');
+    }
+  }
+
+  window.addEventListener('hashchange', handleHashChange);
+  renderSidebar();
+  handleHashChange();
+</script>
+</body>
+</html>

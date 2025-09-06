@@ -11,16 +11,26 @@
 
 <body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="datan4.js" charset="UTF-8"></script>
-<script type="text/javascript" src="cust.js" charset="UTF-8"></script>
-<script type="text/javascript" src="swap.js" charset="UTF-8"></script>
-<script src="myjquery.js" charset="UTF-8"></script>
-<script src="bus.js" charset="UTF-8"></script>
+<script src="scripts_v1/datan4.js" charset="UTF-8"></script>
+<script src="scripts_v1/cust.js" charset="UTF-8"></script>
+<script src="scripts_v1/myjquery.js" charset="UTF-8"></script>
+<script src="scripts_v1/bus.js" charset="UTF-8"></script>
 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async
-	  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+<!--
+2025-09-06: Removed Polyfill (to fill in for older browsers):
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+2025-09-06: Removed LaTex:
+	<script id="MathJax-script" async
+		  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+	</script>
+
+2025-09-06: Removed swap.js, not in use
+
+	<script type="text/javascript" src="swap.js" charset="UTF-8"></script>	
+
+	
+-->
 
 <div class="jumbotron text-center">
   <h2>N4 Grammar</h2>
@@ -43,9 +53,9 @@
     <div class="row">
       <div class="col-sm-12">
 		<p>Queen Street:</p>
-		<p id="bus"></p>
+		<p id="bus_time_to_central_at_home"></p>
 		<p>一田:</p>
-		<p id="bus_syp"></p>
+		<p id="bus_time_to_central_at_yata"></p>
 		</div>
       </div>
     </div>
@@ -58,7 +68,7 @@
     <div class="row">
       <div class="col-sm-12">
 		<p>Queen Street:</p>
-		<p id="bus_to_kt"></p>
+		<p id="bus_time_to_hku"></p>
 		</div>
       </div>
     </div>
@@ -97,7 +107,8 @@
 		  <div class="col-sm-12">
 		  
 	
-	<h2>Presevation of Capital, the latest approach</h2>
+	<h1 class="text-center">Presevation of Capital</h1><br>
+	<h6 class="text-center">Guiding principles for managing savings</h6>
 	
 	<h3>Prologue</h3>	  
 	<p class="text-center"> 	You are not getting your priorities right</p>
@@ -138,6 +149,41 @@ This quote should act as a constant alert to recalibrate and mean-revert yoursel
 	
 	<p>
 	Statistics - have a few statistics to create. If you do not, start brainstorming. Good statistics are say "There have never been CPI above 3% and there is a rate cut". Like some good ones are how many times did VIX futures settle at 1 vol pt higher one-week later (80% of the time?)? Or one I randomly think about "how many times did a pivot happen and what happen to the yields later"? Why does it pivot? Rate cut + pricing in of more inflation later and that the rate cut means Fed is no longer targeting 2% but 3% Inflation</p>
+	
+	<h3 class="text-info">Inflation and money supply (unfinished)</h3>	
+	(btw google you can search "rates trading" site:github.com)
+	<p>
+	My thinking, could be right, could be wrong. Back to using a village as an economic model, many villagers loan out good portion of cash to a company who goes bankrupt because of mismanagement (just think of chucking $100 out of the village total $200 into the river). This company has also many project that has started that suppose will help grow technology and job. Now the government, or central bank in the real world, faces two choice.<br>
+	1. The economy shrink by $100 (already), bad loan default, project stops and everyone accept this.
+	2. Print $100 into the system (bail out), for now, allows project to continue until the growth is there, generate enough money that it can replenish the losses 
+	2. seems to be a better way.
+	
+	(my point here is if there is bad debt you can handle with QE and printing money with the hope that once economy replenish then to reintroduce debt)
+	(if no bad debt this will create inflation - Biden 2022)
+	(and in Europe bad debt is hard to do that because ECB cannot poltiically print money and give it to one country.. unfortunately they hate each other deep down, not the governemnt (politicians dont care!) but the way to win votes and support is to be true to the average voter who deep down hate each other.. lol
+	
+	</p>
+	<h3>Political finance</h3>
+	<p>
+	Inspired by a research paper focus on GSIBs' balance sheet expansion (of course that mean both assets and liabilities grow for a <b><i>bank</b></i>)where they talked about increased deposit growth and repo has driven asset growth, from ATS Treasuries and loans activiity. And immediate trigger me to remind myself, if the factors or motivation behind the growth is still there, there is no reason to believe the trend to stop, which is analogous to if a miner keeps digging, no reason for his coal buckets not to get filled. That said is important to understand what reason could stop or revert the trend (need to know which one), for example an aggressive tariff strategy to a point which lead to recession could revert the trend, although just personal opinion, Trump as businessman, a Republican and the pre-Covid stock market performance during his first term could be some sort of indicator for Season Two.</p>
+	
+	<p> And also observe rates trader usually have their own spreadsheet based cockpit (the 'tool'), contain carry and roll-down calculator. Their little <i>Opportunity Seeking Machine</i> as I might call it. This reminds me that 'carry' is a rather dull concept because it assumes funding does not change (or more accurately speaking, limited usefulness when it comes to a clear pathway to rate hike or cut). This brings me however to the next topic -  <b>Poltical finance. </b>
+	"Trying to explain to boss a bond purchase for a horizon within a fiscal period?", as within the fixed income market everyone see carry as a 101 concept, this kind of still get a bit of love. Afterall the concept also being loved by management. This is just like <b>surviving a meeting with the boss </b>in office politics, end up market there is certain pattern like eliminating good carry opportunities as people crowd around the theme.</p>
+	
+	<p>
+	The poltiically correct way to trade is not trading in imaginary-land where you suddenly spawn as next smart hedge fund manager who suddenly goes Eureka and the first person who find out now is the time to buy! (no, <b> smart money</b> is not referring to you, not with this attitude) - what is <i>correct</i> is mundanely assessing the good themes, the narrative that people may still be talking about and forming more solid opinion (is like you are behind the smoke and waiting for this smoke to disappear), and that there is a obvious pattern in market that conincide, whether it is sideways (in this case selling options are fun), or trending. Then adjust stop loss and build the position up and reassess themes and quantify probability. It is not <i>like work</i>, it <b>IS</b> work, given some chart and good story and buy for the portfolio manager, imagine that way - and hey you may make money, or satisfying, at least mentally or strategically, the pathway to preserve capital. Here another politically rational explanation, everyone follows the <b>big boys</b> and no medal for contrarian in banks and getting spot on everytime, riskiness in that sense is not required, is a more military, mundane, perfect-team-leader-pipeline-employee type material - <b>a bureaucrat or a soldier</b>.</p>
+	
+	<p>
+	Recall we are trying to <i>seek opportunity</i> in <i>preservation of capital</i>. </p>
+	
+	<p>
+	Traders work for desks; desks work for banks and banks work for shareholders and ultimately is about stock market and growth. And themes which sound rather political, for the purpose of pleasing regulators or central banks, or for surviving in the congress - if not, why is window dressing a real thing? As retailers we observe, in Hong Kong, banks looking for new money as we approach December, and this does make very rational sense, because having good liquidity and cash ratios is a huge priority for banks. Yes they may borrow at 5% when they might have borrowed 4% (Think of shorting a bond at 95 when earlier or later shorting can be done at 96), recording a slightly steeper negative day one mark-to-market on record (the -$1.00 between say accounting fair mid price and market bid price) but you then have netural carry already after booking that loss as mark-to-market, and definitely (Neutral as the reverse pull-to-par (negative, AND starts at the 'fair EOD mark' is offset by income from market treasury TOR which should both be, over time around 4$). So your booked loss is on Year 1 but you make good use of your cash for window dressing and definitely in strong cash position at start of Year 2. Furthermore if you expect funding to stay tight which means funding rate stays elevated, then you gain from holding that cash as TOR is high, and you win by being in the better cash position early. This gives incentive for many banks to be aggressive when it comes to positioning (early) for that year-turn funding and hence year-turn funding goes up. Hence another political theme, winning the love of shareholders (the Board of directors) and the regulators (well, managing the regulators more like as they do not pay you bonus) - weighing between what is really or truly important like a game of <b>office politics</b>.</p>
+	
+	<p>
+	And this is politics.</p>
+	
+	<p>
+    Therefore things like seasonality, could also be affected by the same underlying reason for liquidity is a priority rich asset towards these funding tight scenario (quarter-end and dividend) and in face of issuances which drain money from the system. This also bid up the volatility of the funding market (early March, June, September, December) </p>	
 	
 	
 	</div>
