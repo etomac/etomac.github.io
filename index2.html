@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js" type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<script src="scripts_v1/datan4.js" charset="UTF-8"></script>
+<script src="scripts_v1/cust.js" charset="UTF-8"></script>
+<script src="scripts_v1/myjquery.js" charset="UTF-8"></script>
+<script src="scripts_v1/bus.js" charset="UTF-8"></script>
+
+<!--
+2025-09-06: Removed Polyfill (to fill in for older browsers):
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+2025-09-06: Removed LaTex:
+	<script id="MathJax-script" async
+		  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+	</script>
+
+2025-09-06: Removed swap.js, not in use
+
+	<script type="text/javascript" src="swap.js" charset="UTF-8"></script>	
+
+	
+-->
+
+<div class="jumbotron text-center">
+  <h2>N4 Grammar</h2>
+</div>
+
+<div class="container-fluid">
+  <div class="well">
+    <div class="row">
+      <div class="col-sm-12">
+        <button class="btn btn-default" type="button" id="buttonJ">Magic</button>
+        <p></p>
+        <p id="demo">Let's Start!</p>
+      </div>
+    </div>
+  </div>
+    
+<div class="panel panel-default">
+  <div class="panel-heading">Bus Times (To Central)</div>
+    <div class="panel-body">
+    <div class="row">
+      <div class="col-sm-12">
+		<p>Queen Street:</p>
+		<p id="bus_time_to_central_at_home"></p>
+		<p>一田:</p>
+		<p id="bus_time_to_central_at_yata"></p>
+		</div>
+      </div>
+    </div>
+  </div>
+  
+  
+<div class="panel panel-default">
+  <div class="panel-heading">Bus Times (To HKU)</div>
+    <div class="panel-body">
+    <div class="row">
+      <div class="col-sm-12">
+		<p>Queen Street:</p>
+		<p id="bus_time_to_hku"></p>
+		</div>
+      </div>
+    </div>
+  </div>
+  
+ <!-- start of section 3 --> 
+	<div class="panel panel-default">
+	  <div class="panel-heading">Discounting</div>
+		<div class="panel-body">
+		<div class="row">
+		  <div class="col-sm-12">
+	<p>
+	JPY CSA in USD 
+	= JPY OIS discounting equivalent</p>
+
+	<p>
+	Typically JPY OIS -100bps = USD FedFund
+	Therefore USDFedFund + 100bps is equivalent discount
+
+	And since when it is asset to you the counterparty post collateral
+	This is where you effectively get less money..
+	</p>
+	</div>
+	</div>
+	</div>
+	</div>
+  
+ <!-- end of section 3 -->
+
+  
+ <!-- start of section 4 --> 
+	<div class="panel panel-default">
+	  <div class="panel-heading">Preserving capital</div>
+		<div class="panel-body">
+		<div class="row">
+		  <div class="col-sm-12">
+		  
+	
+	<h1 class="text-center">Presevation of Capital</h1><br>
+	<h6 class="text-center">Guiding principles for managing savings</h6>
+	
+	<h3>Prologue</h3>	  
+	<p class="text-center"> 	You are not getting your priorities right</p>
+	<p>
+This quote should act as a constant alert to recalibrate and mean-revert yourself to your ultimate objective. If my life path is a Hull-White model, I probably have a stochastic mean reversion parameters and it happen to be very low right now because even with a huge gap between the forward curve (expected as of the 2010s days) and the current spot, there is a huge gap and is just not been reverting. But like all stochastic models the probability of hitting a tail risk event is either from a highly volatile move (say high mean reversion), or with ... time! Hence worth to be hopeful because a change is probabilstically always in our favour.</p>
+
+	<p>
+ Sitting and typing at the moment present me with the enjoyment of spending time on my own, and cultivating hope and higher purpose which all adds up to my pool of joy (Although I should be handling admin tasks for my family *laugh*). Still, allocation of my leisure hours to heighten ability to endure pain and torture (through sports, for exmaple) should undoubtly be a higher priority and strengthen oneself. A scenario is given a optimistic and positive sportsman or military man with my body and my background (or my cards), I trust they could play it very well. There is never an excuse to not try. Never! </p>
+	
+	
+	<h3>To begin</h3>	  
+	<p>
+	Yes, this section is titled as <i>preserving capital</i> as, please be honest, that is the bare minimum anyone investing in cash would really have hoped to achieve.</p>
+
+	<p>
+	First, should <b>you</b> be managing the presevation of capital? Or should it be outsourced to an mindless ETF? Well it really talk about having (or growing) an edge and an honest opinion balancing your confidence, your preserverence, your hardwork and dedication, your will power, and your available resources (say money, time). Please, do not think that doing n times readings will get you somewhere. That would not. In fact doing 0 reading and n times thinking would probably be a better strategy. Like Jing Gor (王晶) said you have 'success' and 'failure', analyse the reason or driver as to why that happen? What is it that people like, or what is it that really works? (And please do not say luck!)</p>
+	
+	<h3>Checklist</h3>
+	
+	<p>
+	Every choice made to put on a trade or countering a trade should go through a checklist. Important decisions made in our world, say a set of procedures followed by government or corporate staff, are, quite honestly, to lower the probability of failure (not very upside), but this should not mean in the job of preserving capital this has to deviviate much. Have a checklist ready. And do you know the important items to know? Any business in simple world would require to know a thing or two about the market. Surely people working in Apple and people working in 先達 trading Apple would see things very differently. The pricing strategy involves a smart understanding of all folds (e.g. the landscape of manufacturers in emerging markets, the materials (e.g. silicon) market, the US policy etc), whilst the second-hand iphone trader probably look more closely at supply/demand of direct retail consumers, and timeline. Nevertheless if iphone is what you trade, the 'second-tier' trader mindset is the entry ticket. Not having that means you are prone to losses. So learn about the market, come up with checklist, and treat trading like you are working (not like your casual Counter-Strike day-to-day, but if you were to play CS like a job or with <b>professionalism</b> what would it looks like?</p>
+		
+	<h3>Emotion</h3>
+	
+	Emotion is a crazy thing and I do not mean the cliche interpretation of emotion in the sense that you make <b>irrational decision</b> or that 'emotion can make you put on stupid trade'. What I am talking about especially in 2022 when one face huge losses and that can only hit your own emotional health as your hard earn cash get wiped out. The pre-trading plan should do enough work to ensure this does not happen because you are not just losing monetary capital, but also the capital of wellbeing which to me - quality of time, health, family and self are worth much more (or not even comparable) to wealth, especially when you are not (yet) at a point where this is needed. Translating into proper stop loss and remind yourself why (1) commit stop loss, (2) refrain from any trade that do not come from good analysis, the 'emotional trade' and any bad analysis or rationale - ("Oh, if it move 1 vol pt tonight i will be millionaire", hm what if you do not?, why gamble (and typically is against your odd because of the way market is designed?)</p>
+
+	<h3>Reading list</h3>
+	
+	<p>
+	Now I have been seeing that ECB, NBER, BIS, Treasury, Fed, and to an extent, HKMA, have good papers trying to learn of the bond market. These are book smart and knowledge article that is in a sense worth reading. Next people like Duffie would spent years understanding the Treasuries are not to be taken lightly. Of course when people said Buffet is investing in Japan, Druckenmiller is shorting Treasuries. Have a good think as to why. You 'do not know' if those ideas are right but you 'know' when an intern come up with you with some ideas or questions related to these big ideas.</p>
+	
+	<h3>Points</h3>
+	<p>
+	Think of yourself as a government economist doing a press-conference in 2 hours time, or a meeting with sales or RM who is going to ask what's your view on the bond market - what are the things you would prepare. Maybe you want to learn more about <b>credit creation</b> but it is always a luxury, and people love to talk about supply and demand - market quickly reposition as supply and demand shifts. Market is no difference from a normal person's life: a single day is non materially different from the previous, but over time certain things build up (e.g. having McDonalds hashbrown is ok for a day, but overtime it becomes the root cause of obesity). A overheating CPI figure will certainly means rate hike is to go up- (A) 'slow to react' person would easily come to conclusion that there is a hawkish tilt, which erodes attractiveness of holding US treasuries (as funding in USD goes up), the hawkish tilt may mean more reasonable to buy Treasuries at a later time. (B) the market expect people to chuck some Treasuries out first, people are less biddish, people who are at the bench are going to wait out, and people who are selling may increase their bet. All these are the market expectations of what everyone else who are looking at the market will do. Which means this will be a 'dominant' activities and hence market is going to move a certain way. What is harder is 'what is the level that make sense', you have seen where it whipsawed and stablelise in day one, then in the next day it goes into one of the directions (can be bull or bear) and create a big candle. There is hence no real answer.	</p>
+	
+	<p>
+	Liquidity is an important thing when it comes to trading. Bad management or ill preceive of liquidity will mean losing unnecessary money or just unable to liquidate (e.g. short dated options or say some futures roll have insane bid-offer and market operate at a certain time when you need to trade off health (sleeping time) to monitor. Think carefully the consequence, the emotional consequence especially</p>
+	
+	<p>
+	Statistics - have a few statistics to create. If you do not, start brainstorming. Good statistics are say "There have never been CPI above 3% and there is a rate cut". Like some good ones are how many times did VIX futures settle at 1 vol pt higher one-week later (80% of the time?)? Or one I randomly think about "how many times did a pivot happen and what happen to the yields later"? Why does it pivot? Rate cut + pricing in of more inflation later and that the rate cut means Fed is no longer targeting 2% but 3% Inflation</p>
+	
+	<h3 class="text-info">Inflation and money supply (unfinished)</h3>	
+	(btw google you can search "rates trading" site:github.com)
+	<p>
+	My thinking, could be right, could be wrong. Back to using a village as an economic model, many villagers loan out good portion of cash to a company who goes bankrupt because of mismanagement (just think of chucking $100 out of the village total $200 into the river). This company has also many project that has started that suppose will help grow technology and job. Now the government, or central bank in the real world, faces two choice.<br>
+	1. The economy shrink by $100 (already), bad loan default, project stops and everyone accept this.
+	2. Print $100 into the system (bail out), for now, allows project to continue until the growth is there, generate enough money that it can replenish the losses 
+	2. seems to be a better way.
+	
+	(my point here is if there is bad debt you can handle with QE and printing money with the hope that once economy replenish then to reintroduce debt)
+	(if no bad debt this will create inflation - Biden 2022)
+	(and in Europe bad debt is hard to do that because ECB cannot poltiically print money and give it to one country.. unfortunately they hate each other deep down, not the governemnt (politicians dont care!) but the way to win votes and support is to be true to the average voter who deep down hate each other.. lol
+	
+	</p>
+	<h3>Political finance</h3>
+	<p>
+	Inspired by a research paper focus on GSIBs' balance sheet expansion (of course that mean both assets and liabilities grow for a <b><i>bank</b></i>)where they talked about increased deposit growth and repo has driven asset growth, from ATS Treasuries and loans activiity. And immediate trigger me to remind myself, if the factors or motivation behind the growth is still there, there is no reason to believe the trend to stop, which is analogous to if a miner keeps digging, no reason for his coal buckets not to get filled. That said is important to understand what reason could stop or revert the trend (need to know which one), for example an aggressive tariff strategy to a point which lead to recession could revert the trend, although just personal opinion, Trump as businessman, a Republican and the pre-Covid stock market performance during his first term could be some sort of indicator for Season Two.</p>
+	
+	<p> And also observe rates trader usually have their own spreadsheet based cockpit (the 'tool'), contain carry and roll-down calculator. Their little <i>Opportunity Seeking Machine</i> as I might call it. This reminds me that 'carry' is a rather dull concept because it assumes funding does not change (or more accurately speaking, limited usefulness when it comes to a clear pathway to rate hike or cut). This brings me however to the next topic -  <b>Poltical finance. </b>
+	"Trying to explain to boss a bond purchase for a horizon within a fiscal period?", as within the fixed income market everyone see carry as a 101 concept, this kind of still get a bit of love. Afterall the concept also being loved by management. This is just like <b>surviving a meeting with the boss </b>in office politics, end up market there is certain pattern like eliminating good carry opportunities as people crowd around the theme.</p>
+	
+	<p>
+	The poltiically correct way to trade is not trading in imaginary-land where you suddenly spawn as next smart hedge fund manager who suddenly goes Eureka and the first person who find out now is the time to buy! (no, <b> smart money</b> is not referring to you, not with this attitude) - what is <i>correct</i> is mundanely assessing the good themes, the narrative that people may still be talking about and forming more solid opinion (is like you are behind the smoke and waiting for this smoke to disappear), and that there is a obvious pattern in market that conincide, whether it is sideways (in this case selling options are fun), or trending. Then adjust stop loss and build the position up and reassess themes and quantify probability. It is not <i>like work</i>, it <b>IS</b> work, given some chart and good story and buy for the portfolio manager, imagine that way - and hey you may make money, or satisfying, at least mentally or strategically, the pathway to preserve capital. Here another politically rational explanation, everyone follows the <b>big boys</b> and no medal for contrarian in banks and getting spot on everytime, riskiness in that sense is not required, is a more military, mundane, perfect-team-leader-pipeline-employee type material - <b>a bureaucrat or a soldier</b>.</p>
+	
+	<p>
+	Recall we are trying to <i>seek opportunity</i> in <i>preservation of capital</i>. </p>
+	
+	<p>
+	Traders work for desks; desks work for banks and banks work for shareholders and ultimately is about stock market and growth. And themes which sound rather political, for the purpose of pleasing regulators or central banks, or for surviving in the congress - if not, why is window dressing a real thing? As retailers we observe, in Hong Kong, banks looking for new money as we approach December, and this does make very rational sense, because having good liquidity and cash ratios is a huge priority for banks. Yes they may borrow at 5% when they might have borrowed 4% (Think of shorting a bond at 95 when earlier or later shorting can be done at 96), recording a slightly steeper negative day one mark-to-market on record (the -$1.00 between say accounting fair mid price and market bid price) but you then have netural carry already after booking that loss as mark-to-market, and definitely (Neutral as the reverse pull-to-par (negative, AND starts at the 'fair EOD mark' is offset by income from market treasury TOR which should both be, over time around 4$). So your booked loss is on Year 1 but you make good use of your cash for window dressing and definitely in strong cash position at start of Year 2. Furthermore if you expect funding to stay tight which means funding rate stays elevated, then you gain from holding that cash as TOR is high, and you win by being in the better cash position early. This gives incentive for many banks to be aggressive when it comes to positioning (early) for that year-turn funding and hence year-turn funding goes up. Hence another political theme, winning the love of shareholders (the Board of directors) and the regulators (well, managing the regulators more like as they do not pay you bonus) - weighing between what is really or truly important like a game of <b>office politics</b>.</p>
+	
+	<p>
+	And this is politics.</p>
+	
+	<p>
+    Therefore things like seasonality, could also be affected by the same underlying reason for liquidity is a priority rich asset towards these funding tight scenario (quarter-end and dividend) and in face of issuances which drain money from the system. This also bid up the volatility of the funding market (early March, June, September, December) </p>	
+	
+	
+	</div>
+	</div>
+	</div>
+	</div>
+  
+ <!-- end of section 4 -->
+  
+
+</body>
+</html> 

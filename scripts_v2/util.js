@@ -1,5 +1,8 @@
 const CONTENT = {
-    "Trading": {
+	
+    "Trading": {	
+		
+		
       "Fixed Income": [
         {
           id: "fi-treasury-net-issuances",
@@ -71,10 +74,26 @@ const CONTENT = {
             <p>Track Treasury General Account, RRP balances, bank reserves, and coupon vs. bill mix. Shifts between RRP ↔ banking system often map to risk appetite.</p>
           `
         }
-      ]
+      ],
+	  "Preservation of capital" : [
+	  
+        {
+          id: "pc-introduction",
+          title: "Introduction",
+          summary: "Preserve capital",
+          html: `
+            <p class="text-center"> 	You are not getting your priorities right</p>
+	<p>
+This quote should act as a constant alert to recalibrate and mean-revert yourself to your ultimate objective. If my life path is a Hull-White model, I probably have a stochastic mean reversion parameters and it happen to be very low right now because even with a huge gap between the forward curve (expected as of the 2010s days) and the current spot, there is a huge gap and is just not been reverting. But like all stochastic models the probability of hitting a tail risk event is either from a highly volatile move (say high mean reversion), or with ... time! Hence worth to be hopeful because a change is probabilstically always in our favour.</p>
+
+	<p>
+ Sitting and typing at the moment present me with the enjoyment of spending time on my own, and cultivating hope and higher purpose which all adds up to my pool of joy (Although I should be handling admin tasks for my family *laugh*). Still, allocation of my leisure hours to heighten ability to endure pain and torture (through sports, for exmaple) should undoubtly be a higher priority and strengthen oneself. A scenario is given a optimistic and positive sportsman or military man with my body and my background (or my cards), I trust they could play it very well. There is never an excuse to not try. Never! </p></p>
+          `
+        }
+	  ]
     },
 
-    "Life Advice": {
+    "Life": {
       "Operating System": [
         {
           id: "life-energy",
@@ -87,11 +106,25 @@ const CONTENT = {
           title: "Weekly Review (30–45m)",
           summary: "Close loops, plan experiments, set constraints.",
           html: `<ol><li>Inbox to zero</li><li>Review goals</li><li>Pick 1–2 experiments</li><li>Block calendar</li><li>Write a short strategy note</li></ol>`
+        },
+        {
+          id: "life-id259a",
+          title: "Item 0",
+          summary: "First entry",
+          html: `<p>
+		  
+		  Staring into the eyes of my year-and-a-half old boy, I realise that no two moments are identical. His smile truly makes me want to ensure that his life will be ok. And most of it is mindset, and being around with people of good mindset. And the right mindset is always having a "That's ok" mentality. Facing adversity or when one have to question themselves, one needs to know that it is ok. There is no need to change, doing better or self-improvement is a luxury, just like having the latest Nintendo Switch or something. The perfect individual pitched by some of the best sellers down in the bookshop asile is imaginery, all humans are flawed, and no, no authors truly about you, they are truly for their bank account and their insecurity of running out people who subscribe to their Podcast, like their comments or befriend with them. So do not let 'society' put you down because (1) they do not care, (2) having 'good' access to society is a add-on service that could come at a cost for some. [It is late (12:02am) but I am glad to start this upcoming project]
+		  
+		  </p> <p>
+		  
+		  Again - Priorities. No one's priority should be about reading self-help book or be with people you do not geuinely love to be with. No one priority should be wasted of thing which neither yield short-term or long-term healty, benefit or happiness. Please re-align. You do not need a "Trading Cockpit", you need rather a "life improving cockpit"
+		  
+		  </p>`
         }
       ]
     },
-
     "Mathematics": {
+		
       "Probability": [
         {
           id: "math-bayes",
@@ -120,7 +153,7 @@ const CONTENT = {
   /*****************************************************************
    * 2) RENDERING HELPERS
    *****************************************************************/
-  const $ = (sel, root=document) => root.querySelector(sel);
+  const $B = (sel, root=document) => root.querySelector(sel);
   const $$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
   const enc = encodeURIComponent;
   const dec = decodeURIComponent;
@@ -129,12 +162,15 @@ const CONTENT = {
     return String(str).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
   }
 
+  // EC 2501 ::  
+  // :: ${} is like f'string in Python, enc() turns spaces to %20
+  // :: function turns categories to a string (or a 'hash'(#)' string) which suffixes the URL
   function hashFor(cat, sub, sectionId="") {
     // Format: #cat=Trading&sub=Fixed%20Income&sec=fi-treasury-net-issuances
     const base = `#cat=${enc(cat)}&sub=${enc(sub)}`;
     return sectionId ? `${base}&sec=${enc(sectionId)}` : base;
   }
-
+  // EC 2501 :: split the string after "#" in the URL to look up params
   function parseHash() {
     const h = location.hash.slice(1);
     const params = new URLSearchParams(h);
@@ -150,7 +186,13 @@ const CONTENT = {
   function renderSidebar(data) {
     const host = document.getElementById('sidebarContent');
     host.innerHTML = '';
-
+	
+	  let homeLink = document.createElement('a');
+	  homeLink.href = '#intro';
+	  homeLink.className = 'list-group-item';  
+	  homeLink.textContent = 'Home';//'🏠 Home';
+	  host.appendChild(homeLink);
+	  
     Object.entries(data).forEach(([topic, subtopics], i) => {
       const topicId = `topic-${makeId(topic)}-${i}`;
       const accId = `acc-${topicId}`;
@@ -178,7 +220,7 @@ const CONTENT = {
   function highlightActive(cat, sub) {
     $$('#sidebarContent a.list-group-item').forEach(a => a.classList.remove('active'));
     const selector = `a[href^="${CSS.escape(hashFor(cat, sub))}"]`;
-    const link = $(selector, $('#sidebarContent'));
+    const link = $B(selector, $B('#sidebarContent'));
     if (link) link.classList.add('active');
   }
 
@@ -186,6 +228,9 @@ const CONTENT = {
    * 4) MAIN CONTENT RENDERING
    *****************************************************************/
   function renderMain(cat, sub, sec) {
+	  	document.getElementById('clearMemoryBtn').addEventListener('click', () => {
+  clearLast();
+});
     const title = document.getElementById('pageTitle');
     const intro = document.getElementById('intro');
     const host = document.getElementById('content');
@@ -225,7 +270,7 @@ const CONTENT = {
 
     // Scroll to section if specified
     if (sec) {
-      const target = $(`a[href$="sec=${enc(sec)}"]`);
+      const target = $B(`a[href$="sec=${enc(sec)}"]`);
       if (target) {
         target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
@@ -275,6 +320,13 @@ const CONTENT = {
   function loadLast() {
     try { return { cat: localStorage.getItem('lastCat'), sub: localStorage.getItem('lastSub') }; } catch { return {}; }
   }
+	function clearLast() {
+	  try {
+		localStorage.removeItem('lastCat');
+		localStorage.removeItem('lastSub');
+	  } catch {}
+	}
+	
 
   /*****************************************************************
    * 6) ROUTING
@@ -289,14 +341,17 @@ const CONTENT = {
   function firstLoad() {
     renderSidebar(CONTENT);
 
+    clearLast();
     const { cat, sub } = parseHash();
     if (cat && sub) {
       navigateFromHash();
     } else {
       const last = loadLast();
+	  
       if (last.cat && last.sub && CONTENT[last.cat] && CONTENT[last.cat][last.sub]) {
         location.hash = hashFor(last.cat, last.sub);
       }
+	  
     }
 
     attachFiltering();
