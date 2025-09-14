@@ -3,7 +3,156 @@ const CONTENT = {
     "Trading": {	
 		
 		
-      "Fixed Income": [
+
+	  "Preservation of capital" : [
+	  
+        {
+          id: "pc-aug25",
+          title: "August 2025",
+          summary: "Preserve capital",
+          html: `
+          <p class="text-center"> 	You are not getting your priorities right</p>
+		  <p>
+			This quote should act as a constant alert to recalibrate and mean-revert yourself to your ultimate objective. If my life path is a Hull-White model, I probably have a stochastic mean reversion parameters and it happen to be very low right now because even with a huge gap between the forward curve (expected as of the 2010s days) and the current spot, there is a huge gap and is just not been reverting. But like all stochastic models the probability of hitting a tail risk event is either from a highly volatile move (say high mean reversion), or with ... time! Hence worth to be hopeful because a change is probabilstically always in our favour.
+		  </p>
+
+	      <p>
+			 Sitting and typing at the moment present me with the enjoyment of spending time on my own, and cultivating hope and higher purpose which all adds up to my pool of joy (Although I should be handling admin tasks for my family *laugh*). Still, allocation of my leisure hours to heighten ability to endure pain and torture (through sports, for exmaple) should undoubtly be a higher priority and strengthen oneself. A scenario is given a optimistic and positive sportsman or military man with my body and my background (or my cards), I trust they could play it very well. There is never an excuse to not try. Never! 
+		  </p>
+          `
+        },{
+          id: "pc-sep2025",
+          title: "September 2025",
+          summary: "September Write-up",
+          html: `
+			<p><b>
+			Be serious about it </b></p><p> 
+			Whether is playing counter-strike, presenting in a meeting, or gambling, or trading - having the right (i) mentality, (ii) attitude and (iii) treating your work your craft with a <b>serious</b> mentality on is important.
+			Just like I learn in counter-strike today (25.09.13) - being serious in your craft of counter-strike helps you be top scorer and top frag, and eliminates emotional content and get on with it. When you were told to clean your house, the 'confidence' bit do not come into play. And emotional content really robs your success. 
+			So be serious like you are the pilot of a flight or captain of the ship, you are in the cockpit, pushing the button and leading your ship to succeed: like any pro-gamer setting up their gears in tournaments, traders reading up the overnight events and getting their trading environment set up, sales moisening up and prepare their pitchbook, and leader coming up to the stage and ready to launch and attack. Predator instinct is super important because missing a meal means life-and-death in the animal kingdom, and is built into the human instinct, doing sloppy or lazy work is a herbivorous tactic that result in suffering and pain. 
+			</p>
+			
+			<p><b>
+			Smart-risk taker</b></p><p> 
+			Is 5 seconds into a T round and you are outside A door - your memory tells you that an AWPer will chuck a fire bomb and then place an AWP. You either extinguish the fire with a smoke or wait for the fire to die out. But what's next? You stood outside A door still, (virtually) shaking your legs because you do not want to be AWPed, so you go to another spot. But you are then NOT a risk taker. Whilst rushing in is a reckless crazy person (there is no courage point nor smart point, is as bad as former). So smart-risk taker is one where the odds are certainly not fully in your favour but you execute this odd in the best way (just like in a Pokemon TCG Pocket round where it could be risky to not heal your evolved Eevee, risk getting hit to 10hp or 0hp damage depending on if they have +10 damage, only then to leave the Eevee trainer card to boost better move the next turn and win the game). </p>
+			<p>
+		    <ul class="muted small">
+				<li>Risk taker mentality - not reckless, not fuck-it, not give-up, not DIEEEEEE!, none of those. Is abit like let's walk up to the group of strangers, let's ski down the slope, push yourself a little and action. This is going against the current a little, be brave a little, be proud a little, be stepping out of the usual a little. Is not stand outside A-door. Is practice not outside the A-door. Is practice the new and unfamiliar and having that reward behind the curtain</li>
+				<li>Smart - not rocket science, not research analyst. Is rationalise the idea, abit like Charlie Kirk, not a PhD Philosophy A Grade, not overthink, but business is about seeing an angle, the <i>main point</i>, the 一針見血. Seeing a pattern is not writing a 10,000 dissertation in 6-months, is about seeing the vitual green-dotted line in 秋名（雪） and drift like a orange beeping light</li>
+			</ul>
+			
+			So what is the smart move to handle this A-door situation? ChatGPT said pop-flash and rotate. The 'risk-taker' rulebook would include a 'rotation', i.e. knowing when, how, where, why to cut loss and whether to rotate (to opposite direction). The point is, point 1 and 2 goes hand-in-hand. If you see something feels right, you need to convince yourself (not blindly sell yourself but knowing what works). For example often time chart (i.e. historical FOMO trades basically, and that's why history is pretty toxic lol) points to a steepner trade idea - "Damn of course curve will steepen, it was freaking 0bps and inverted" (But no you actually have no clue), then saying (A) donald trump cut rates and borrowing costs go up so people dumping 30-year bond, and (B) what if this is over priced-in OR what if long-term bond rally due to another driver, where (A) and (B) works all the time (the main story and the counter story), is 100% time (with every trade you can say that). So you need a view and the view comes with well document and accounted historical analysis. 		</p>
+			<p>
+
+			To repeat, a lazy person is one where things been sloppy and there is a lazy mindset (it's too hard, it's never possible, it's too much time, the world's fault) and suddenly there is a second where the person thinks "oh I need a big change" but with the above caveats ("too late", "need it quick") so mindlessly take the easiest option (e.g. suddenly put a big trade, or go to double-black ski lift), basically again the "risk-taking" is actually not a change but another careless, lazy act. And hence set to fail or disaster. We are talking about a plan, a commitment, a routine, for many years, for as long as the career or vocation will last, to keep "practice, push, practice, push" - just like how the ski instructor taught us how to ski, you push yourself to harder cliff until you no longer fails (and failure in trading does not mean 100% loss, it means preservation of capital again!), then you do something harder (define it, not necessarily more capital). In fixed income trading T-bill and playing on the sub-1 year interest rates is 'easier' but is risky. Then you have 2-year, 5-year, 7-year, 10-year and finally the 20s, 30s, each is a different beast require you to tackle (more like POkemon in that sense, you start battling Onix which was super tough if you recall, and then before you know it you were battling the Dragonite gym fighter (I am talking about when you were 12 year old playing Pocket Monsters Red). So no, do not be reckless, which is equivalent lazy
+			
+			</p>
+			
+			
+
+			
+			<p><b>
+			Reading list/Literature Review</b></p><p> 
+			Despite an increased skeptism in contemporary method of tertiary education, I still reckon there were useful takeways (And really one should spend another session reflecting the tertiary education takeaways). But one example is the constant reminder that in bringing in an idea, a thorough literature review is required and here we go through some of the useful readings a individual in learning the ropes of preserving capital can pursue:
+			</p><p>
+		    <ul class="muted small">
+				<li>Fixed income research paper - contains primer or trading idea by rates strategists or fixed income research team to tackle ideas, how they pitch a driver and then rationalising it. This kind of framework can really be replicated if one needs to be serious in rates trading. Could be old one or new one. Recently I love RESROUNDUP from Bloomberg, BI/FED/USTY are good screens to capture activities (BI also have technical analysis on rates), occasionally the MOVE index are to watch out for, surveys/positionings (Cash, GovPX, Futures), Money market wraps, new researches like Rates Spark (ING), European Sunrise (Commerzbank), Philip Maley (Rabobank) and BMO Capital Markets ones are quite good, Podcasts from NAB are really quality. And even NatWest podcasts are great to see how people are trained to think. There are many researchers which contribute and framework is really important.</li>
+				<li>Smart money/hedge fund - reading sample trades or releases (like the Eliott-Wave headlines) that may provoke thoughts.</li>
+				<li>Fed speak - really understanding and reading the Federal Reserve speakers and watching Fed members like you watch news on Mirror (yep.. the pop group) would be right way to go. The ECB, the IMF, the BIS, the Fed NY or St Louis, BOE, Bank of France etc, many central banks are also investing alot of resource to research the markets. Learn from those!</li>
+				<li>News papers - Economist and FT and WSJ are the go-to. Although they are premium materials. How about BBC? Sometimes the smartest trades and smartest build-up are starting from really public information, or if not they are very private, getting access to the 'best' news sources may not mean edge.</li>
+				<li>Economists and Twitters - Fed watcher, Krugman, Mohamed A El-Erain, retired economic advisers and twitting fund managers and economists could inspire what to watch.</li>
+            </ul>
+			</p>
+			
+			
+			<p><b>
+			(C)</b></p><p> 
+			...
+			</p>
+          `
+			
+			
+			
+		}
+	  ]
+    },
+
+    "Life": {
+      "Thoughts": [
+        {
+          id: "life-id259a",
+          title: "Q3 25 Thoughts",
+          summary: "Q3 25 Thoughts",
+          html: `
+		  <p>
+		  <b>Intro</b>
+		  </p> 
+		 
+		  <p>
+		  Staring into the eyes of my year-and-a-half old boy, I realise that no two moments are identical. His smile truly makes me want to ensure that his life will be ok. And most of it is mindset, and being around with people of good mindset. And the right mindset is always having a "That's ok" mentality. Facing adversity or when one have to question themselves, one needs to know that it is ok. There is no need to change, doing better or self-improvement is a luxury, just like having the latest Nintendo Switch or something. The perfect individual pitched by some of the best sellers down in the bookshop asile is imaginery, all humans are flawed, and no, no authors truly about you, they are truly for their bank account and their insecurity of running out people who subscribe to their Podcast, like their comments or befriend with them. So do not let 'society' put you down because (1) they do not care, (2) having 'good' access to society is a add-on service that could come at a cost for some. [It is late (12:02am) but I am glad to start this upcoming project]
+		  </p> 
+		  
+		  <p>
+		  Again - Priorities. No one's priority should be about reading self-help book or be with people you do not geuinely love to be with. No one priority should be wasted of thing which neither yield short-term or long-term healty, benefit or happiness. Please re-align. You do not need a "Trading Cockpit", you need rather a "life improving cockpit"
+		  </p> 
+		  
+		  <p>
+		  <b>Suffering is Joy, Torture yourself!</b>
+		  </p>
+		  
+		  <p>
+		  There are other ways to put it : "No pain no gain", "Sweat is fat leaving the body" etc. But really these more positive version do not address the idea that "suffering" is not a painful or unhappy thing, it is a neutral phenomenon to life. Whilst "torturing" means you intentionally "add weights" to the barbell, you push yourself and pinch yourself. Because like a friend of mine said "human are inheretently lazy", that you will find yourself giving up before reaching 160KCal burnt within 20 minutes. You actually have to pinch yourself, you actually have to be your own PT, you actually have to feel "yes today there is pain and suffering I am more complete, that means I am trained" and this applies both emotionally and physically. 
+		  </p>
+			
+		  <p>
+		  <b>Relations with others</b>
+		  </p>
+		  <p> 
+			Overtime my perception of friendship changes. I am not a person who is designed to have many friends, and I would said labels like "socially awkward" do stick with me. When I stumble across more recent YouTube vidoes of Tony Leung describing himself as having social anxiety, I felt represented, that established successful people can openly say they are anxious in social events. I feel is coming down on how person is raised. Being judged by others, and constantly performing reactions or anticipation of opinions and judgements is a tiring business for me. I truly think there are people you can get along well. And that people tend to get along for better at younger age. People are more similar (same school, similar hobbies), and then comes more adult-like issue (more like young adults issue) which start to create groups, and later at work where social status of individual sort of diverge. I would love the idea of people looking pass a lot of things and just enjoy a meal and bullshit and no hard feelings but that's what <b>you</b> want, this match <b>your</b> social ideal, but other people social ideal is not: some want destruction, some want their values to be agreed, some want to be loved for who they are, some want to be a leader etc, and as long as there is no overlap (mostly me because I wish for a type that is hang-out-able) then it can be a long tug-of-war, and if <b>you</b> mistakenly think there is a turning point, then it will be a huge waste of time. Understand that there is no turning point and people are different and no everyone can bond at all stages (even a pair of friends can start hating each other, become best buddy, then do not talk to each other again). People are also <b>for themselves</b>, meaning if you tell people your family matters and something happen that make you feel sad, only you feel sad, no one can feel how you felt and expecting people to feel you is over the top. Friendship is a tricky subject for me, I used to think who and who is my friend, and then I found out less and less best friend, and it hit my confidence because I feel I am not the other person's best friend. It started off with how the word "best friend" exist. There is no forever "best friend", and I can be sure that there exist best friends who keep being best for the sake of having best friends. Or that there is deep down non-overlapping part. People at 40s and 50s start to loose real best friends and they only have families. Friends for older people are generally people who can mutually benefit from socialising because this is what people relationship are like. There are people in sales who keep good relationship with others at best, who can take themselves lightly, who can take things lightly, laugh it off, they have friends, but they also do not get over emotional. Whilst I do get emotional, and you love alone time (like now). I do not see friend as a necessity or luxury, it can be very loose.
+			</p>
+			
+			
+		  <p></p>`
+        },
+		
+        {
+          id: "life-energy",
+          title: "Energy > Time",
+          summary: "Guard sleep, nutrition, movement; schedule hard work in peak energy blocks.",
+          html: `<p>Time is fixed; energy is variable. Protect 7–8h sleep, sunlight AM, protein-forward meals, and a daily walk. Batch meetings; leave creative blocks intact.</p>`
+        },
+        {
+          id: "life-weekly-review",
+          title: "Weekly Review (30–45m)",
+          summary: "Close loops, plan experiments, set constraints.",
+          html: `<ol><li>Inbox to zero</li><li>Review goals</li><li>Pick 1–2 experiments</li><li>Block calendar</li><li>Write a short strategy note</li></ol>`
+        },
+      ]
+    },
+    "Quantitative Economist": {
+		
+      "Probability": [
+        {
+          id: "math-bayes",
+          title: "Bayes’ Theorem (Trading Lens)",
+          summary: "Update priors with new signals; watch base rates.",
+          html: `<p><code>P(A|B) = P(B|A)P(A)/P(B)</code>. In markets, treat signals as <em>noisy</em>. Calibrate false positives/negatives using out-of-sample tests.</p>`
+        },
+        {
+          id: "math-ev",
+          title: "Expected Value & Kelly (Lite)",
+          summary: "Sizing under uncertainty; volatility caveats.",
+          html: `<p>EV = Σ p_i x_i. Kelly <em>fraction</em> is fragile to estimation error; consider half/quarter Kelly.</p>`
+        },
+		
+        {
+          id: "math-eigen",
+          title: "Eigen Stuff in Risk",
+          summary: "PCA for curve moves; beware regime shifts.",
+          html: `<p>PCA extracts principal modes (level, slope, curvature). Refit often; rolling windows, shrinkage, and robust scaling help.</p>`
+        }
+      ],
+	        "Fixed Income Research": [
         {
           id: "fi-treasury-net-issuances",
           title: "Treasury Net Issuances",
@@ -40,6 +189,14 @@ const CONTENT = {
           html: `
             <p>Approx P/L ≈ <code>-Duration × Δy + 0.5 × Convexity × (Δy)^2</code>. For large moves, include convexity; for callable/ MBS, be mindful of negative convexity.</p>
           `
+        },
+        {
+          id: "macro-liquidity-dash",
+          title: "Liquidity Dashboard (Concept)",
+          summary: "TGA, RRP, reserves, issuance mix → risk impulse.",
+          html: `
+            <p>Track Treasury General Account, RRP balances, bank reserves, and coupon vs. bill mix. Shifts between RRP ↔ banking system often map to risk appetite.</p>
+          `
         }
       ],
       "Technical Analysis": [
@@ -63,88 +220,6 @@ const CONTENT = {
           html: `
             <p>Define stop (1R). Expectancy <code>E = p×R_w − (1−p)×R_l</code>. Focus on <em>edge</em> + <em>variance control</em> (size, correlation).</p>
           `
-        }
-      ],
-      "Macro": [
-        {
-          id: "macro-liquidity-dash",
-          title: "Liquidity Dashboard (Concept)",
-          summary: "TGA, RRP, reserves, issuance mix → risk impulse.",
-          html: `
-            <p>Track Treasury General Account, RRP balances, bank reserves, and coupon vs. bill mix. Shifts between RRP ↔ banking system often map to risk appetite.</p>
-          `
-        }
-      ],
-	  "Preservation of capital" : [
-	  
-        {
-          id: "pc-introduction",
-          title: "Introduction",
-          summary: "Preserve capital",
-          html: `
-            <p class="text-center"> 	You are not getting your priorities right</p>
-	<p>
-This quote should act as a constant alert to recalibrate and mean-revert yourself to your ultimate objective. If my life path is a Hull-White model, I probably have a stochastic mean reversion parameters and it happen to be very low right now because even with a huge gap between the forward curve (expected as of the 2010s days) and the current spot, there is a huge gap and is just not been reverting. But like all stochastic models the probability of hitting a tail risk event is either from a highly volatile move (say high mean reversion), or with ... time! Hence worth to be hopeful because a change is probabilstically always in our favour.</p>
-
-	<p>
- Sitting and typing at the moment present me with the enjoyment of spending time on my own, and cultivating hope and higher purpose which all adds up to my pool of joy (Although I should be handling admin tasks for my family *laugh*). Still, allocation of my leisure hours to heighten ability to endure pain and torture (through sports, for exmaple) should undoubtly be a higher priority and strengthen oneself. A scenario is given a optimistic and positive sportsman or military man with my body and my background (or my cards), I trust they could play it very well. There is never an excuse to not try. Never! </p></p>
-          `
-        }
-	  ]
-    },
-
-    "Life": {
-      "Operating System": [
-        {
-          id: "life-energy",
-          title: "Energy > Time",
-          summary: "Guard sleep, nutrition, movement; schedule hard work in peak energy blocks.",
-          html: `<p>Time is fixed; energy is variable. Protect 7–8h sleep, sunlight AM, protein-forward meals, and a daily walk. Batch meetings; leave creative blocks intact.</p>`
-        },
-        {
-          id: "life-weekly-review",
-          title: "Weekly Review (30–45m)",
-          summary: "Close loops, plan experiments, set constraints.",
-          html: `<ol><li>Inbox to zero</li><li>Review goals</li><li>Pick 1–2 experiments</li><li>Block calendar</li><li>Write a short strategy note</li></ol>`
-        },
-        {
-          id: "life-id259a",
-          title: "Item 0",
-          summary: "First entry",
-          html: `<p>
-		  
-		  Staring into the eyes of my year-and-a-half old boy, I realise that no two moments are identical. His smile truly makes me want to ensure that his life will be ok. And most of it is mindset, and being around with people of good mindset. And the right mindset is always having a "That's ok" mentality. Facing adversity or when one have to question themselves, one needs to know that it is ok. There is no need to change, doing better or self-improvement is a luxury, just like having the latest Nintendo Switch or something. The perfect individual pitched by some of the best sellers down in the bookshop asile is imaginery, all humans are flawed, and no, no authors truly about you, they are truly for their bank account and their insecurity of running out people who subscribe to their Podcast, like their comments or befriend with them. So do not let 'society' put you down because (1) they do not care, (2) having 'good' access to society is a add-on service that could come at a cost for some. [It is late (12:02am) but I am glad to start this upcoming project]
-		  
-		  </p> <p>
-		  
-		  Again - Priorities. No one's priority should be about reading self-help book or be with people you do not geuinely love to be with. No one priority should be wasted of thing which neither yield short-term or long-term healty, benefit or happiness. Please re-align. You do not need a "Trading Cockpit", you need rather a "life improving cockpit"
-		  
-		  </p>`
-        }
-      ]
-    },
-    "Mathematics": {
-		
-      "Probability": [
-        {
-          id: "math-bayes",
-          title: "Bayes’ Theorem (Trading Lens)",
-          summary: "Update priors with new signals; watch base rates.",
-          html: `<p><code>P(A|B) = P(B|A)P(A)/P(B)</code>. In markets, treat signals as <em>noisy</em>. Calibrate false positives/negatives using out-of-sample tests.</p>`
-        },
-        {
-          id: "math-ev",
-          title: "Expected Value & Kelly (Lite)",
-          summary: "Sizing under uncertainty; volatility caveats.",
-          html: `<p>EV = Σ p_i x_i. Kelly <em>fraction</em> is fragile to estimation error; consider half/quarter Kelly.</p>`
-        }
-      ],
-      "Linear Algebra": [
-        {
-          id: "math-eigen",
-          title: "Eigen Stuff in Risk",
-          summary: "PCA for curve moves; beware regime shifts.",
-          html: `<p>PCA extracts principal modes (level, slope, curvature). Refit often; rolling windows, shrinkage, and robust scaling help.</p>`
         }
       ]
     }
