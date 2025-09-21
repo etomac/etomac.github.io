@@ -177,9 +177,9 @@ const CONTENT = {
         },
       ]
     },
-    "Quantitative Economist": {
+    "Not-in-use": {
 		
-      "Probability": [
+      "Not-in-use-prob": [
         {
           id: "math-bayes",
           title: "Bayes’ Theorem (Trading Lens)",
@@ -200,7 +200,7 @@ const CONTENT = {
           html: `<p>PCA extracts principal modes (level, slope, curvature). Refit often; rolling windows, shrinkage, and robust scaling help.</p>`
         }
       ],
-	        "Fixed Income Research": [
+	        "Not-in-use-fires": [
         {
           id: "fi-treasury-net-issuances",
           title: "Treasury Net Issuances",
@@ -247,7 +247,7 @@ const CONTENT = {
           `
         }
       ],
-      "Technical Analysis": [
+      "Not-in-use-ta": [
         {
           id: "ta-breakout-checklist",
           title: "Breakout Checklist",
