@@ -64,6 +64,40 @@ const CONTENT = {
             </ul>
 			</p>
 			
+			<p><b>
+			Stopping time and stopping levels, and comfort zone</b></p><p> 
+			Next trade we should really introduce 3 concepts: stopping time, stopping levels and comfort zone. What are the sins?:
+			</p><p>
+		    <ul class="muted small">
+				<li><b>Stopping time</b> - holding a losing position for more than 2 weeks, or holding a winning position and not deciding whether to build onto it or to take profit</li>
+				<li><b>Stopping levels</b> - no idea where to FORCIBLY take stop loss or take profit</li>
+				<li><b>Comfort zone</b> - are the levels are truly within comfort level?</li>
+            </ul>
+			</p><p>
+			Note prior to NFP, CPI or FOMC, there is a more quiet period where people may take profit, stop adding risk or unwind risk. Do note that expecting violent move (before the storm) is not rational. Tomorrow night will be FOMC (2am HKT), at least have the old framework ready:
+			</p>
+			<p>
+		    <ul class="muted small">
+				<li><b>Fundamental</b></li>
+				  <li style="list-style-type:none">
+					<ul>
+					  <li><b>Steepening</b> - dovish rate cut with statement pointing to worsening labour market whilst CPI are under control will lead to further rate cut priced in as FOMC sort of move that bias to employment concerns whilst the acceptance of a higher inflation will definitely give way to selling pressure around the long ends</li>
+					  <li><b>Flattening</b> - hawkish comments coming in of no additional rate cut may mean no more inflation carelessness should be priced in - Fed will stick by its guns and remain hawkish amid heighten political pressure from the administration. Meanwhile the inflation reassurance continue to add back confidence into the financial system so money flow back into the dollars given Fed's commitment to enhance confidence in Fed's mandate of maintaining price stability</li>
+					</ul>
+				  </li>
+				<li><b>Technical</b></li>
+				  <li style="list-style-type:none">
+					<ul>
+					  <li><b>Steepening</b> - Daily charts still show going up so there has not yet been a correction. Momentum to go up sort of slow and is not looking like is going up more and more. 5s30s at 100bps may still be seen as a relative steal given term premium and long datedness there should be more weakness.</li>
+					  <li><b>Flattening</b> - Extension of that weak momentum may continue and pricing about 80bps is justified. Early 22s to 25s the 5s30s are sub 50bps as elevated rates with long-end rate cut and price stability and expected growth impact is giving off this flatter curve vibe. As rate cut and more inflation and more growth priced in, couple with equity (stock growth) and gold (inflation protection), the 5s30s on this basis should go up. Above 100bps seems to be more of a norm when Fed is to run an accomodating monetary policy. Given lack of evidence of an escalated urgency, above 100bps could be hard although i feel the market could be opened to this idea. Weak labour report and the rejection of a 50bps in September I think could be seen as sufficient reasons as too why the 100bps mark could still be relevant.</li>
+					</ul>
+				  </li>
+            </ul>
+			In conclusion I do not feel there is a material departure from 100bps naturally. Wrong policy would be what can bring a more volatile ending to the 5s30s, with too loose (e.g. 2 cuts or dovish Fed) signal a much steeper curve as worries build-up and too tight (e.g. no cut or hawkish Fed) a much flatter curve. It comes down to the Fed statement to put on a trade in my opinion and really depends on the 'vibe' that the Fed is sounding to put on a trade.
+			</p>
+			
+			
+			
 			
 			<p><b>
 			(C)</b></p><p> 
