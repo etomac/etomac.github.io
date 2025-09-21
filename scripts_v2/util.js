@@ -98,6 +98,20 @@ const CONTENT = {
 			
 			
 			
+			<p><b>
+			Allocation and speed (21Sep)</b></p><p>
+
+			Yes we talked about many of the buyside institutions are (A) specific class focus, (B) public sector or slow acting mutual fund, and how does the market turn like a hedge fund whenever there is a news and how to market-maker sort of gauge the market? </p><p>
+			First (A) if there is only equity and bond, equity having an interest to increase risk whilst bond has interest to offload risk would give the same effect as "market shift bond to equity" - doesn't matter if it's a multi-asset PM or not, looking individual market or managing cross-asset should take same action given the same asset-class/cash combination (that is to say if long-only equity do not want to long equity they just hold cash or cash-like asset like T-bill. which by the way these extra demand of cash got to go somewhere like... gold?)</p><p>
+			Second, think about the securities market like pokemon card or lego, the market always adjust super quickly afterall the stores are run by the market makers, so if say suddenly they said they will stop printing a specific booster set, they will jack up the price instantly. Or if they release a news that says "actually this ninjago castle they will only make 10 boxes" (a supply-side restriction), the market maker jack up the price instantly. The supply/demand expectation leads to quick move in prices as they have to ensure that they are able to adjust the "mid" correctly so they can keep their bid/offer flow-based (or risk-free in a sense) PnL flat. There could be some sense in where it should stop, for example z-score on a given day should make sensible guideline as to how a news story should look like, i.e. CPI worse than forecast is not a 3 z-score moves on a day, although could be in a week if it materially shift the landscape of rate hike or cut. </p><p>
+			Like I say some exercise one can do is to</p><p><ul>
+				<li>Break down every week what has happened, which guys called it right and are the drivers aligned? Learn from that</li>				
+				<li>Which guys called the right move at start of a trend and what did they do well?</li>				
+				<li>Have a ready on allocation paper and learn of asset-allocation</li>
+			</ul>
+			</p>
+          
+			
 			
 			<p><b>
 			(C)</b></p><p> 
